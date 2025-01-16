@@ -1,13 +1,13 @@
 {
-  "lastModif": "20250116_194948",
+  "lastModif": "20250116_195610",
   "partName": "doorstop",
   "pVal": {
-    "H1": 40,
+    "H1": 42,
     "L1": 100,
     "W1": 30,
     "Details": 0,
-    "R1": 2,
-    "E1": 4
+    "R1": 9,
+    "E1": 9
   },
-  "comment": "Written by geom_cli"
+  "comment": ""
 }

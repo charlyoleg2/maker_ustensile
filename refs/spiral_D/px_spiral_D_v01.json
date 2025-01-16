@@ -1,13 +1,13 @@
 {
-  "lastModif": "20250116_194949",
+  "lastModif": "20250116_200158",
   "partName": "spiral",
   "pVal": {
-    "QuadrantNb": 9,
+    "QuadrantNb": 30,
     "W1": 10,
-    "E1": 30,
-    "E2": 5,
+    "E1": 0,
+    "E2": 30,
     "Height": 0,
     "H1": 50
   },
-  "comment": "Written by geom_cli"
+  "comment": ""
 }

@@ -1,9 +1,9 @@
 {
-  "lastModif": "20250116_194948",
+  "lastModif": "20250116_195836",
   "partName": "pencil_holder",
   "pVal": {
-    "Nx": 7,
-    "Ny": 5,
+    "Nx": 1,
+    "Ny": 6,
     "Lx": 10,
     "Ly": 10,
     "Spacing and rounded": 0,
@@ -14,5 +14,5 @@
     "Height": 0,
     "H1": 50
   },
-  "comment": "Written by geom_cli"
+  "comment": ""
 }
