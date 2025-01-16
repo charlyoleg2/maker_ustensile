@@ -1,5 +1,5 @@
 {
-  "lastModif": "20250116_195220",
+  "lastModif": "20250116_201502",
   "partName": "gear_wheel",
   "pVal": {
     "module": 10,
@@ -38,20 +38,20 @@
     "gw2Position": 0,
     "Inner": 0,
     "centralAxis": 1,
-    "axisRadius": 10,
-    "ribNb": 5,
-    "ribWidth": 8,
-    "ribHeight": 8,
+    "axisRadius": 20,
+    "ribNb": 0,
+    "ribWidth": 2,
+    "ribHeight": 1,
     "ribRound1": 2,
     "ribRound2": 2,
     "hollow": 1,
-    "materialHeightExt": 20,
-    "materialHeightInt": 15,
+    "materialHeightExt": 10,
+    "materialHeightInt": 6,
     "spokeNb": 5,
-    "spokeWidth": 15,
+    "spokeWidth": 10,
     "spokeRound": 10,
     "Axis": 0,
-    "wheelAxis": 1,
+    "wheelAxis": 0,
     "wheelHeight": 40,
     "wheelMidExtra": 6,
     "wheelAxisLength": 40,
@@ -62,5 +62,5 @@
     "wheelAxisIntRound": 0,
     "wheelExtraRound": 4
   },
-  "comment": "Written by geom_cli"
+  "comment": ""
 }

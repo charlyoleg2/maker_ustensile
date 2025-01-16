@@ -1,24 +1,24 @@
 {
-  "lastModif": "20250116_195142",
+  "lastModif": "20250116_202327",
   "partName": "surface",
   "pVal": {
     "LH": 1600,
     "LV": 1000,
     "LZ": 40,
-    "nx": 9,
-    "ny": 9,
+    "nx": 5,
+    "ny": 5,
     "main fantasia": 0,
     "main_direction": 0,
     "crenel": 0,
-    "first_row": 9,
-    "second_row": 9,
+    "first_row": 1,
+    "second_row": 3,
     "horizontal spacing": 0,
     "EH": 10,
-    "EH_gradient": 0,
+    "EH_gradient": 1,
     "EH_sup": 500,
     "EH_cycle": 1,
     "EH_start": 0,
-    "EH_shape": 0,
+    "EH_shape": 1,
     "vertical spacing": 0,
     "EV": 10,
     "EV_gradient": 0,
@@ -30,5 +30,5 @@
     "power_efficiency": 16,
     "solar_power": 816
   },
-  "comment": "Written by geom_cli"
+  "comment": ""
 }

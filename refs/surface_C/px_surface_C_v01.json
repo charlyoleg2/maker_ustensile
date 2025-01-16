@@ -1,5 +1,5 @@
 {
-  "lastModif": "20250116_195140",
+  "lastModif": "20250116_201900",
   "partName": "surface",
   "pVal": {
     "LH": 1600,
@@ -14,14 +14,14 @@
     "second_row": 9,
     "horizontal spacing": 0,
     "EH": 10,
-    "EH_gradient": 0,
-    "EH_sup": 500,
+    "EH_gradient": 1,
+    "EH_sup": 1000,
     "EH_cycle": 1,
     "EH_start": 0,
-    "EH_shape": 0,
+    "EH_shape": 1,
     "vertical spacing": 0,
     "EV": 10,
-    "EV_gradient": 0,
+    "EV_gradient": 1,
     "EV_sup": 500,
     "EV_cycle": 1,
     "EV_start": 0,
@@ -30,5 +30,5 @@
     "power_efficiency": 16,
     "solar_power": 816
   },
-  "comment": "Written by geom_cli"
+  "comment": ""
 }
