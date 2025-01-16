@@ -7,13 +7,24 @@ import { promisify } from 'util';
 const c_Parts = {
 	doorstop: 'doorstop_v01',
 	pencil_holder: 'pencil_holder_v01',
-	spiral: 'spiral_v01'
+	spiral_B: 'spiral_B_v01',
+	spiral_C: 'spiral_C_v01',
+	spiral_D: 'spiral_D_v01',
+	lettreL: 'lettreL_v01',
+	surface_B: 'surface_B_v01',
+	surface_C: 'surface_C_v01',
+	surface_D: 'surface_D_v01',
+	surface_E: 'surface_E_v01',
+	gear_wheel_B: 'gear_wheel_B_v01'
 };
 
 const c_svgdxf = {
 	doorstop: ['faceProfile', 'faceTop', 'faceSide'],
 	pencil_holder: ['faceTop', 'faceFace', 'faceSide'],
-	spiral: ['faceTop', 'faceSide']
+	spiral: ['faceTop', 'faceSide'],
+	lettreL: ['face1'],
+	surface: ['faceSurface', 'faceOnePanel'],
+	gear_wheel: ['teethProfile', 'axisProfile']
 };
 
 function inferDesignName(instanceName) {
