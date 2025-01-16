@@ -1,0 +1,14 @@
+surface simTime: 0
+panel surface: 1.60 m2
+panel power: 208.90 W
+max panel number: 25
+max panel surface: 40.00 m2
+max panel power: 5222.40 W
+actual panel number: 41 (164.00 %)
+actual panel surface: 65.60 m2
+actual panel power: 8564.74 W
+global horizontal width: 9.37 m
+global vertical height: 10.83 m
+global area: 101.51 m2
+area efficiency: 64.62 %
+panel-surface drawn successfully!

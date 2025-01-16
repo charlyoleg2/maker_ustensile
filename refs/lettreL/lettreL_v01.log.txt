@@ -1,0 +1,3 @@
+lettreL simTime: 0
+lettreL area: 40.00 x 60.00 mm
+lettreL drawn successfully!

@@ -1,0 +1,305 @@
+{
+  "partName": "doorstop",
+  "pDef": {
+    "partName": "doorstop",
+    "params": [
+      {
+        "name": "H1",
+        "unit": "mm",
+        "init": 40,
+        "min": 5,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L1",
+        "unit": "mm",
+        "init": 100,
+        "min": 10,
+        "max": 300,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W1",
+        "unit": "mm",
+        "init": 30,
+        "min": 5,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Details",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "R1",
+        "unit": "mm",
+        "init": 2,
+        "min": 1,
+        "max": 30,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E1",
+        "unit": "mm",
+        "init": 4,
+        "min": 1,
+        "max": 20,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "H1": "doorstop_profile.svg",
+      "L1": "doorstop_profile.svg",
+      "R1": "doorstop_profile.svg",
+      "E1": "doorstop_profile.svg",
+      "W1": "doorstop_profile.svg"
+    },
+    "sim": {
+      "tMax": 100,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "H1": 42,
+    "L1": 100,
+    "W1": 30,
+    "Details": 0,
+    "R1": 9,
+    "E1": 9
+  },
+  "figures": {
+    "faceProfile": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 9.000000000000002,
+              "py": 5.058579654624126e-16
+            },
+            {
+              "typ": 1,
+              "px": 97.3295768063607,
+              "py": 5.470549078064804e-15
+            },
+            {
+              "typ": 2,
+              "px": 100.81466916555655,
+              "py": 17.297838950466257,
+              "radius": 9,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 43.6718120226994,
+              "py": 41.29783895046625
+            },
+            {
+              "typ": 2,
+              "px": 40.186719663503574,
+              "py": 42,
+              "radius": 9,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 9.000000000000002,
+              "py": 42
+            },
+            {
+              "typ": 2,
+              "px": 5.510910596163091e-16,
+              "py": 33,
+              "radius": 9,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 5.510910596163091e-16,
+              "py": 9.000000000000002
+            },
+            {
+              "typ": 2,
+              "px": 9.000000000000002,
+              "py": 5.058579654624126e-16,
+              "radius": 9,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 21,
+          "cy": 21,
+          "radius": 12
+        },
+        {
+          "circle": true,
+          "cx": 53.14755929440474,
+          "cy": 17.901598175685614,
+          "radius": 8.901598175685614
+        },
+        {
+          "circle": true,
+          "cx": 76.34402053868364,
+          "cy": 13.228077392290908,
+          "radius": 4.228077392290908
+        }
+      ]
+    ],
+    "faceTop": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 42,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 42,
+              "py": 30
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 30
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 42,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 142,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 142,
+              "py": 30
+            },
+            {
+              "typ": 1,
+              "px": 42,
+              "py": 30
+            },
+            {
+              "typ": 1,
+              "px": 42,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceSide": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": 42
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 42
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_doorstop",
+        "face": "doorstop_faceProfile",
+        "extrudeMethod": 0,
+        "length": 30,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_doorstop",
+        "boolMethod": 0,
+        "inList": [
+          "subpax_doorstop"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "doorstop simTime: 0\ndoorstop length 142.00 mm, angle 22.78 degree\ndoorstop drawn successfully!\n"
+}
