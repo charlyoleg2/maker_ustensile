@@ -1,0 +1,12 @@
+{
+  "lastModif": "20250116_194950",
+  "partName": "lettreL",
+  "pVal": {
+    "C": 10,
+    "E": 30,
+    "B": 50,
+    "AB": 10,
+    "epaisseur": 10
+  },
+  "comment": "Written by geom_cli"
+}
