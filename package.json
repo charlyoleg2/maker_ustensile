@@ -36,6 +36,7 @@
 	"devDependencies": {
 		"desi82-cli": "^0.1.14",
 		"desi82-uis": "^0.1.14",
+		"designix": "^0.5.58",
 		"rimraf": "^6.0.1"
 	}
 }
