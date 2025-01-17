@@ -5,6 +5,7 @@ import { exec } from "child_process";
 import { promisify } from 'util';
 
 const c_Parts = {
+	gear_wheel: 'gear_wheel_v01'
 	gear_wheel_B: 'gear_wheel_B_v01'
 };
 
