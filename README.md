@@ -56,14 +56,14 @@ Vocabulary
 ----------
 
 - Design: A parametrizable 3D parts. Desginix is a collection of designs.
-- Part or Reference: A particular parametrization of a design.
+- Part (a.k.a. Reference or 3D-model): A particular parametrization of a design.
 - Instance: The realization of a reference.
 
 
-References for the maker\_ustensile
------------------------------------
+Parts for the maker\_ustensile
+------------------------------
 
-ID | Reference           | Design             | Nb of instances
+ID | Part                | Design             | Nb of instances
 ---|---------------------|--------------------|----------------
 1  | doorstop            | doorstop           | 1
 2  | pencil\_holder      | pencil\_holder     | 1
