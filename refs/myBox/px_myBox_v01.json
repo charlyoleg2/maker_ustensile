@@ -1,0 +1,18 @@
+{
+  "lastModif": "20250120_194211",
+  "partName": "myBox",
+  "pVal": {
+    "L1": 120,
+    "L2": 80,
+    "W1": 2,
+    "H1": 40,
+    "H2": 2,
+    "hollow": 0,
+    "holes": 1,
+    "D1": 10,
+    "D2": 5,
+    "corners": 0,
+    "Rc": 10
+  },
+  "comment": ""
+}

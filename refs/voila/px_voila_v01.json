@@ -1,0 +1,12 @@
+{
+  "lastModif": "20250120_194146",
+  "partName": "voila",
+  "pVal": {
+    "H1": 40,
+    "H2": 50,
+    "radius": 10,
+    "corners": 0,
+    "Rc": 10
+  },
+  "comment": ""
+}
