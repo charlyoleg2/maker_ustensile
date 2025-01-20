@@ -1,0 +1,165 @@
+{
+  "partName": "voila",
+  "pDef": {
+    "partName": "voila",
+    "params": [
+      {
+        "name": "H1",
+        "unit": "mm",
+        "init": 40,
+        "min": 1,
+        "max": 4000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H2",
+        "unit": "mm",
+        "init": 50,
+        "min": 1,
+        "max": 4000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "radius",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 4000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "corners",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "Rc",
+        "unit": "mm",
+        "init": 10,
+        "min": 0,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "H1": "voila_face.svg",
+      "H2": "voila_face.svg",
+      "radius": "voila_face.svg",
+      "Rc": "voila_face.svg"
+    },
+    "sim": {
+      "tMax": 180,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "H1": 40,
+    "H2": 50,
+    "radius": 10,
+    "corners": 0,
+    "Rc": 10
+  },
+  "figures": {
+    "faceVoila": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -9.999999999999998,
+              "py": -25
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": -25
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 14.999999999999998
+            },
+            {
+              "typ": 2,
+              "px": 9.999999999999998,
+              "py": 25,
+              "radius": 10,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -20,
+              "py": 25
+            },
+            {
+              "typ": 1,
+              "px": -20,
+              "py": -14.999999999999998
+            },
+            {
+              "typ": 2,
+              "px": -9.999999999999998,
+              "py": -25,
+              "radius": 10,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 10
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_voila_top",
+        "face": "voila_faceVoila",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_voila",
+        "boolMethod": 0,
+        "inList": [
+          "subpax_voila_top"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "voila simTime: 0\nvoila drawn successfully!\n"
+}

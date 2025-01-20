@@ -1,0 +1,4 @@
+myBox simTime: 0
+box-base surface 9600.00 mm2
+box volume 384000.00 mm3
+myBox drawn successfully!
