@@ -10,14 +10,18 @@ const c_Parts = {
 	spiral_B: 'spiral_B_v01',
 	spiral_C: 'spiral_C_v01',
 	spiral_D: 'spiral_D_v01',
-	lettreL: 'lettreL_v01'
+	lettreL: 'lettreL_v01',
+	voila: 'voila_v01',
+	myBox: 'myBox_v01'
 };
 
 const c_svgdxf = {
 	doorstop: ['faceProfile', 'faceTop', 'faceSide'],
 	pencil_holder: ['faceTop', 'faceFace', 'faceSide'],
 	spiral: ['faceTop', 'faceSide'],
-	lettreL: ['face1']
+	lettreL: ['face1'],
+	voila: ['faceVoila'],
+	myBox: ['faceBottom', 'faceTop', 'faceSide', 'faceFace']
 };
 
 function inferDesignName(instanceName) {
