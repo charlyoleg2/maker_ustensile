@@ -34,10 +34,10 @@
 		"ls_refs": "ls -ltra refs"
 	},
 	"devDependencies": {
-		"desi82-cli": "^0.1.17",
-		"desi82-uis": "^0.1.17",
-		"designix-cli": "^0.5.51",
-		"designix-uis": "^0.5.41",
+		"desi82-cli": "^1.0.0",
+		"desi82-uis": "^1.0.0",
+		"designix-cli": "^1.0.3",
+		"designix-uis": "^1.0.3",
 		"rimraf": "^6.0.1"
 	}
 }
